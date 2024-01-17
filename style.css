@@ -27,7 +27,7 @@ header {
 }
 .menu {
     width: 51px;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 5px;
@@ -317,8 +317,8 @@ main {
     display: grid;
 }
 .imagen{
-    width: 26vh;
-    height: 26vh;
+    width: 370px;
+    height: 370px;
     border: 2px solid black;
     border-radius: 50%;
     background-image: url("Tools /Home/art.jpeg");
@@ -737,6 +737,15 @@ main {
     }
 }
 @media (max-width: 990px) {
+main {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 454px;
+}
     .presentation {
         display: flex;
         flex-direction: column-reverse;
@@ -748,10 +757,10 @@ main {
         width: 100%;
         font-size: 40px;
     }
-    .imagen {
-        width: 270px;
-        height: 270px;
-    }
+.imagen {
+    width: 285px;
+    height: 285px;
+}
 
 }
 @media (max-width: 902px) {
@@ -773,9 +782,6 @@ main {
     }
     .nav-list li {
         display: none;
-    }
-    .menu {
-        display: flex;
     }
     .menu-icon {
         width: 36px;
