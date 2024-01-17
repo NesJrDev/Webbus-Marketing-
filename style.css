@@ -829,7 +829,7 @@ main {
 @media (max-width: 425px) {
     .cubesDes {
         width: 82%;
-        height: 350px;
+        height: 296px;
         background-size: 630px 300px;
         background-position: -640px;
     }
