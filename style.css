@@ -908,6 +908,8 @@ main {
 }
 @media (max-width: 515px) {
     .Blog {
+        margin-top: 100px;
+        margin-bottom: 110px;
         overflow: hidden;
     }
     .ContainerBlogForalltech {
