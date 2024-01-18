@@ -131,5 +131,3 @@ iconoMenu.addEventListener("click", () => {
     }
     menuactive = !menuactive; // Cambia el estado del menú
 });
-alert("El ancho de tu pantalla es de " + window.innerWidth)
-alert("El largo de tu pantalla es de " + window.innerHeight)
