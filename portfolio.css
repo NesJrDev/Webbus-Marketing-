@@ -72,7 +72,7 @@ header {
     margin: 80px 0;
     z-index: 25;
     transform: translate(-100%);
-    padding: 0 0 0 61px;
+    padding: 0 0 0 37px;
 }
 @media (max-width: 551px) {
     .subsub-menu {
@@ -367,6 +367,7 @@ main {
 /* Parte de portafolio */
 .portfolio {
     height: auto;
+    margin: 100px 0;
 }
 .PortContainer {
     width: auto;
@@ -714,7 +715,7 @@ footer {
     .susubfooter {
         block-size: inherit;
         display: block;
-        padding: 0px 26px 23px;
+        padding: 0px 39px 23px;
     }
     
     .company {
@@ -781,7 +782,7 @@ footer {
     }
     .ulelements {
         display: flex;
-        width: 81%;
+        width: 95%;
         justify-content: space-between;
         list-style: none;
         padding: 0px 29px 35px 32px;
@@ -879,6 +880,7 @@ footer {
         .PortContainer {
             display: flex;
             flex-direction: column;
+            margin: 50px 0;
         }
         .cubePort {
             width: 24vh;
@@ -939,14 +941,15 @@ footer {
         }
         .cubePort {
             width: 90%;
-            margin: 0px 26px 0px 0px;
+            margin: 0px 0px 0px 0px;
         }
         .imgPor {
-            width: 36vh;
+            width: 100%;
+            height: 330px;
         }
         .textPort {
-            width: 24vh;
-            margin-left: 11px;
+            width: 90%;
+            margin-left: 21px;
         }
     }
     @media (max-width: 425px) {
