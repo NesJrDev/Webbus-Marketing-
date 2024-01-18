@@ -131,3 +131,5 @@ iconoMenu.addEventListener("click", () => {
     }
     menuactive = !menuactive; // Cambia el estado del menú
 });
+alert(window.innerWhidth)
+alert(window.innerHeight)
