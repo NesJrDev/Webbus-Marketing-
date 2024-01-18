@@ -744,7 +744,7 @@ main {
     display: flex;
     align-items: end;
     justify-content: center;
-    margin-top: 454px;
+    margin-top: 488px;
 }
     .presentation {
         display: flex;
@@ -755,7 +755,7 @@ main {
     }
     .textpre h1 {
         width: 100%;
-        font-size: 40px;
+        font-size: 36px;
     }
 .imagen {
     width: 285px;
@@ -809,7 +809,7 @@ main {
         font-size: 31px;
     }
     .textpre h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
     .cubesDes p {
         font-size: 16px;
