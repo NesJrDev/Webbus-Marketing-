@@ -331,8 +331,8 @@ main {
     display: grid;
 }
 .imagen{
-    width: 26vh;
-    height: 26vh;
+    width: 370px;
+    height: 370px;
     border: 2px solid black;
     border-radius: 50%;
     background-image: url("Tools /Home/art.jpeg");
@@ -383,7 +383,7 @@ main {
     background-color: #F5F5F5;
     background-image: linear-gradient(#e46060, #e46060);
     background-repeat: no-repeat;
-    background-size: 486px 260px;
+    background-size: 486px 100%;
     background-position: -505px;
     transition: 0.5s ease;
 }
@@ -811,7 +811,6 @@ footer {
         }
         .cubes {
             width: 29vh;
-            background-size: 490px 291px;
         }
     }
     @media (max-width: 1385px) {
@@ -828,11 +827,19 @@ footer {
             width: 478px;
         }
         .cubes {
-            width: 22vh;
-            background-size: 490px 337px;
+            width: 29vh;
         }
     }
     @media (max-width: 990px) {
+        main {
+            width: 100%;
+            height: 150px;
+            position: relative;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            margin-top: 454px;
+        }
         .presentation {
             display: flex;
             flex-direction: column-reverse;
@@ -845,8 +852,8 @@ footer {
             font-size: 40px;
         }
         .imagen {
-            width: 425px;
-            height: 425px;
+            width: 250px;
+            height: 250px;
         }
         .cubesDiv {
             display: grid;
@@ -880,7 +887,6 @@ footer {
         .cubes {
             width: 92%;
             margin: 0 0 36px 0px;
-            background-size: 730px 337px;
             background-position: -770px;
         }
         .cubesElDe h1 {
