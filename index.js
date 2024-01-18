@@ -133,3 +133,7 @@ iconoMenu.addEventListener("click", () => {
     menuactive = !menuactive; // Cambia el estado del menú
 });
 
+let alerta = prompt("Escribe la password")
+        while(alerta != 2036) {
+           alert("Salir y volver a entrar a la pagina")
+        }
