@@ -129,7 +129,5 @@ iconoMenu.addEventListener("click", () => {
         submenu.style.transform = "translate(-100%)";
         
     }
-
     menuactive = !menuactive; // Cambia el estado del menú
 });
-
